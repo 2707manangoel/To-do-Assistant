@@ -25,7 +25,7 @@ def view_tasks():
 
 def complete_task():
     view_tasks()
-    if not tasks():
+    if not tasks:
         return
     try:
         number = int(input("Enter the task number to complete: "))
@@ -63,5 +63,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-     
      
